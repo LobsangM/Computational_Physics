@@ -4,10 +4,10 @@ Este proyecto implementa un **functor de polinomios** en Python y varios método
 
 ## Estructura de archivos
 
-tarea1/
+tarea1\\
 │
-├── main.py
-├── derivada.py
-├── config.yaml
-├── README.md
-└── requirements.txt
+├── main.py\\
+├── derivada.py\\
+├── config.yaml\\
+├── README.md\\
+└── requirements.txt\\
