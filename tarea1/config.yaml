@@ -1,0 +1,10 @@
+# Configuración del polinomio
+
+polynomial:
+  coefficients: [1, -2, 3] #Esto repseta el polinomio 1x^2 - 2x + 3
+
+#Punto de evaluación de la derivada
+points: [0, 1, 2, 3, 4] 
+
+#Paso h de las derivadas numéricas
+h: 1e-5
