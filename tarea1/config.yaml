@@ -8,3 +8,11 @@ points: [0, 1, 2, 3, 4]
 
 #Paso h de las derivadas numéricas
 h: 1e-5
+
+# Configuración para método de Newton
+newton:
+  grado: 3
+  coefficients: [1, 0, 0, -1]   # p(x) = x^3 - 1
+  initial_guesses: [0.1, -0.5, 2, -2]  # puntos iniciales
+  max_iter: 100
+  tolerance: 1e-8
